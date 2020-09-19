@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc08ea2933523f543b5717e514bb948b, type: 3}
+  m_Name: DBStageChoos
+  m_EditorClassIdentifier: 
+  tipeKartu: Hewan
+  sKartuHurufTerpilih: 0c00000002000000000000000100000000000000000000000200000001000000050000000100000004000000010000000100000002000000000000000100000000000000000000000400000001000000030000000000000000000000000000000200000000000000
+  sKartuObjectTerpilih:
+  - AYAM
+  - BISON
+  - BUAYA
+  - CICAK
+  - GAJAH
+  - KOALA
+  - KUDA
+  - SAPI
+  - SINGA
+  - TIKUS
+  sKartuHurufHewan: 0c00000002000000000000000100000000000000000000000200000001000000050000000100000004000000010000000100000002000000000000000100000000000000000000000400000001000000030000000000000000000000000000000200000000000000
+  sKartuHurufBuah: 0700000001000000000000000100000004000000000000000000000000000000020000000200000004000000040000000300000004000000030000000100000000000000010000000300000000000000040000000000000002000000000000000000000000000000
+  sKartuHurufAlam: 0a00000004000000000000000100000000000000000000000000000003000000010000000100000002000000020000000000000006000000020000000100000000000000000000000000000005000000070000000000000009000000000000000000000000000000
+  sKartuHurufBenda: 0600000001000000010000000000000001000000000000000000000000000000050000000100000001000000020000000200000001000000000000000500000000000000000000000500000000000000090000000000000000000000000000000000000000000000
+  kObjectHewan:
+  - AYAM
+  - BISON
+  - BUAYA
+  - CICAK
+  - GAJAH
+  - KOALA
+  - KUDA
+  - SAPI
+  - SINGA
+  - TIKUS
+  kObjectBuah:
+  - APEL
+  - DUKU
+  - JAMBU
+  - JERUK
+  - LEMON
+  - MELON
+  - NANAS
+  - SALAK
+  - SAWO
+  - KIWI
+  kObjectAlam:
+  - AWAN
+  - BATU
+  - BUKIT
+  - BULAN
+  - DAUN
+  - HUJAN
+  - KABUT
+  - LAUT
+  - POHON
+  - TANAH
+  kObjectBenda:
+  - BUKU
+  - KUNCI
+  - KURSI
+  - LAMPU
+  - MEJA
+  - PAKU
+  - PALU
+  - PISAU
+  - SAPU
+  - SISIR
+  gObjectHewan:
+  - {fileID: 21300000, guid: 94b7d1fcb2496174ea26e4d3b8f01051, type: 3}
+  - {fileID: 21300000, guid: 00a8d1c47be52d646bf198de824216d6, type: 3}
+  - {fileID: 21300000, guid: f3409044b9e73de4db2c3c227188819a, type: 3}
+  - {fileID: 21300000, guid: 65be79c17fb313142a3c0d97f33d280e, type: 3}
+  - {fileID: 21300000, guid: a312d4f5b079e8841a1a1aa97e56396e, type: 3}
+  - {fileID: 21300000, guid: 48b8e5f8a619b6c4aa4d38f6b6bc7c4f, type: 3}
+  - {fileID: 21300000, guid: 2e8b8c1f2c345da4babf30e95269c6f6, type: 3}
+  - {fileID: 21300000, guid: 0c2a70f7215fb324dac416e89c137244, type: 3}
+  - {fileID: 21300000, guid: b9c168f509086294ca11de30f4cffc4b, type: 3}
+  - {fileID: 21300000, guid: a813d7315a5c2184183e187b925ab170, type: 3}
+  gObjectBuah:
+  - {fileID: 21300000, guid: 526439e44959a76468b5695e0061d146, type: 3}
+  - {fileID: 21300000, guid: be7efc23d51698c4c9a229f9bdeb8265, type: 3}
+  - {fileID: 21300000, guid: 0ca071ac8d8f36a47b329bf2ce4a0e63, type: 3}
+  - {fileID: 21300000, guid: 5a3101b74d721e743961b87268c70f70, type: 3}
+  - {fileID: 21300000, guid: f082dfd3c9b6b7940acac3edb4440f5a, type: 3}
+  - {fileID: 21300000, guid: 345b690e8f4c07a49936f598e57170db, type: 3}
+  - {fileID: 21300000, guid: 27a0ff40600551044a5e7db7eb3453eb, type: 3}
+  - {fileID: 21300000, guid: b5bf7634ced98d84cb4ac102bb2e9b24, type: 3}
+  - {fileID: 21300000, guid: 1f1ad9763eeb008429a43cc69b4128da, type: 3}
+  - {fileID: 21300000, guid: f133caf6b80c186459628e417a69e6f6, type: 3}
+  gObjectAlam:
+  - {fileID: 21300000, guid: a2c406deba03ea04c81962b8a8d9e884, type: 3}
+  - {fileID: 21300000, guid: 680a95b27e6c35b4093a7adeef3c4f5b, type: 3}
+  - {fileID: 21300000, guid: 98c139b29589ce74fa08b149374acb22, type: 3}
+  - {fileID: 21300000, guid: f317c0b30ca38c043a882312a1faf52f, type: 3}
+  - {fileID: 21300000, guid: 8f39279d97b492c46bdc03fac8fb18dd, type: 3}
+  - {fileID: 21300000, guid: acdb8bbe40255214eb6716db79fceba0, type: 3}
+  - {fileID: 21300000, guid: d105b67c06fa5c24b94d128e65f3e6c2, type: 3}
+  - {fileID: 21300000, guid: c6070a75fd785494baafed65302e73c6, type: 3}
+  - {fileID: 21300000, guid: 350ebc80cd781ce4b9c0f77fc3fd31b1, type: 3}
+  - {fileID: 21300000, guid: 2a8a347361312844c98aeed3ca4f7322, type: 3}
+  gObjectBenda:
+  - {fileID: 21300000, guid: 05d22e484dc4ff842bdbdc8b7af78e80, type: 3}
+  - {fileID: 21300000, guid: 7d21fc6d8fb43e14cb4c9256c3b8daa9, type: 3}
+  - {fileID: 21300000, guid: d5b953c003cd69340a9e4a72ceb5a7ec, type: 3}
+  - {fileID: 21300000, guid: ccef0a892ceff1e4fbf3a5d14e653ed5, type: 3}
+  - {fileID: 21300000, guid: 8daa5fda777ed174f9ff0500d791a95b, type: 3}
+  - {fileID: 21300000, guid: 4397d6eb1b124734e81e75859cda2811, type: 3}
+  - {fileID: 21300000, guid: 342a1f7264414294896768bbfed51be3, type: 3}
+  - {fileID: 21300000, guid: b3d7b3f796cbb4d4d8b8f2195fc6a2e7, type: 3}
+  - {fileID: 21300000, guid: 732742cbf77cd2b4294c64fb13d87273, type: 3}
+  - {fileID: 21300000, guid: aa9ff8af1ccedb7498500289639fd970, type: 3}
+  gKartuHuruf:
+  - {fileID: 21300000, guid: 10efa75b5d26b434eb5f36044ac8abb0, type: 3}
+  - {fileID: 21300000, guid: f9e80a1a063095e4d803f7fab0236e5f, type: 3}
+  - {fileID: 21300000, guid: 89383fbde92af5c46adf2ad9459a1edc, type: 3}
+  - {fileID: 21300000, guid: 4fe3fe00fef41394e861d32423134869, type: 3}
+  - {fileID: 21300000, guid: bf18d564169f5e04b93bddc10996ab86, type: 3}
+  - {fileID: 21300000, guid: 6acb10c46030c2344bb6b56dc63efab7, type: 3}
+  - {fileID: 21300000, guid: f9b5b7f688910494bb8eb13914a0cc15, type: 3}
+  - {fileID: 21300000, guid: 46794821e5fce954f82a79ec69188793, type: 3}
+  - {fileID: 21300000, guid: 85d6c6ae29e301744b7874285ffe0cb4, type: 3}
+  - {fileID: 21300000, guid: 056d4e1e708fc424d943481b342691fd, type: 3}
+  - {fileID: 21300000, guid: 3a4a149920f3e4c43876a770e5c0281f, type: 3}
+  - {fileID: 21300000, guid: 3a77ac56a47741145bb8e9d675bd1130, type: 3}
+  - {fileID: 21300000, guid: 6d6db57f650d3e340b3c14da3965458e, type: 3}
+  - {fileID: 21300000, guid: 297505bd506b081439bafba7e236daa5, type: 3}
+  - {fileID: 21300000, guid: c4db7a67349ab2c47b45ea9c099244a8, type: 3}
+  - {fileID: 21300000, guid: 8e6070eb290a16f418d87b9ce9fe8e64, type: 3}
+  - {fileID: 21300000, guid: 4310473c20bcbc54183e34a9305859b0, type: 3}
+  - {fileID: 21300000, guid: df79daba97fb1104ea230949af7242ab, type: 3}
+  - {fileID: 21300000, guid: 043bc94e1ebd3f8418edd99b37e042c1, type: 3}
+  - {fileID: 21300000, guid: 5b908e6c033ce29499ba7e0c187e225a, type: 3}
+  - {fileID: 21300000, guid: 71491d5259530f9449219447d7fb16d8, type: 3}
+  - {fileID: 21300000, guid: c159849aec7868e46b4279d67da27af2, type: 3}
+  - {fileID: 21300000, guid: 94013bc425282f1429e8f45c454d1f8e, type: 3}
+  - {fileID: 21300000, guid: fb350aa673c9b8b4e833ccfc2cd9e092, type: 3}
+  - {fileID: 21300000, guid: 018a28f4d8f42d944a55c4aae7b0a972, type: 3}
+  - {fileID: 21300000, guid: 1bacd734c6692534792584014c61c2e8, type: 3}
