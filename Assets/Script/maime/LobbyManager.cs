@@ -137,7 +137,7 @@ public class LobbyManager : MonoBehaviour
 			if (connected){
 				tipeTerpilih = tipeKartu.text;
 				editDB.tipeKartu = tipeTerpilih;
-				getCardToRoom();
+				//getCardToRoom();
 				SceneManager.LoadScene("Gameplay");
 			}else{
 				Debug.Log("Failed Connect to GameServer");
@@ -219,6 +219,7 @@ public class LobbyManager : MonoBehaviour
 	public void StartRoom(){
 		NetworkClient.Lobby.StartRoom((successful, error) =>{
 			if (successful) {
+				editDB.tipeKartu = tipeKartu.text;
 				Debug.Log("Started room.");
 			}
 			else {
